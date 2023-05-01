@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+body{
+    background-color: #1A2026
+}
+
+#Sec-Login{
+    height: 500px;
+    width: 600px;
+    background-color: #323A40;
+    border-radius: 20px;
+    position: relative;
+    top: 60px;
+    left: 26%;
+    box-shadow: 1px 1px 30px 4px rgba(216, 217, 215, 0.1);
+}
+.desine-input{
+
+    height: 50px;
+    width: 500px;
+    background-color: #1A2026;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    transition: 0.4s;
+}
+.desine-input:focus{
+    border-bottom: 2px solid #00FF00;
+}   
+.desine-input::placeholder{
+    color: #fff;
+}
+.fontlabal{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
